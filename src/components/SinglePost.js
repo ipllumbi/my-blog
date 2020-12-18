@@ -15,6 +15,8 @@ export default function OnePost() {
     const [postData, setPostData] = useState(null);
     const { slug } = useParams();
 
+
+
     useEffect(() => {
         sanityClient
             .fetch(
